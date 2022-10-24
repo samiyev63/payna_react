@@ -1,0 +1,257 @@
+@charset "UTF-8";
+.container {
+  max-width: 1150px;
+  margin: 2% auto;
+  padding: 10px;
+}
+
+.container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-logo {
+  display: block;
+}
+
+.header__nav-list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.header__nav-list-items a,
+.btn {
+  text-decoration: none;
+  color: #070f18;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 12px 48px;
+  background-color: #e5e5e5;
+  border-radius: 50px;
+}
+
+.main__container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.main__container--title {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
+
+.main__container--title h1 {
+  font-size: 55px;
+  line-height: 82px;
+}
+
+.main__container--title p {
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: -20px;
+}
+
+.main__container--title a {
+  padding: 12px 48px;
+  text-decoration: none;
+  width: 180px;
+  height: 48px;
+  color: #fff;
+  background: #1f7cff;
+  border-radius: 50px;
+}
+
+.App-png2 {
+  border-radius: 60px;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  float: center;
+  justify-content: space-between;
+}
+
+.logo_container h3 {
+  width: 151px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.social__title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.social__title h3 {
+  color: #f75c4e;
+  font-size: 16px;
+}
+
+.social__title h1 {
+  font-size: 36px;
+  color: #000000;
+}
+
+.social__title p {
+  width: 332px;
+  margin-left: 411px;
+  height: 64px;
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 32px;
+  color: #575455;
+}
+
+.social_section {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 90px;
+}
+
+.social_section--box {
+  width: 300px;
+  display: flex;
+  gap: 24px;
+}
+
+.social_section--box--icon {
+  display: block;
+  flex-shrink: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  background-image: url("/Users/mac/Desktop/Рабочий стол/najot_talim/sass/lesson8/src/imgs/logo2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social_section--box--info h3 {
+  margin-bottom: 30px;
+  margin-top: -10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #575455;
+}
+
+.social_section--box--info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #575455;
+}
+
+.icon-1 {
+  background-color: #1f7cff;
+}
+
+.icon-2 {
+  background-color: #f75c4e;
+}
+
+.icon-3 {
+  background-color: #191046;
+}
+
+.icon-4 {
+  background-color: #ff1fb3;
+}
+
+.icon-5 {
+  background-color: #5c4ef7;
+}
+
+.icon-6 {
+  background-color: #f7954e;
+}
+
+.footer_continer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_continer_title {
+  width: 400px;
+  height: 400px;
+  margin-top: 60px;
+}
+
+.footer_continer_title h3 {
+  color: #f75c4e;
+  font-size: 16px;
+}
+
+.footer_continer_title h1 {
+  font-size: 36px;
+  color: #000000;
+}
+
+.footer_continer_title p {
+  width: 332px;
+  height: 64px;
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 32px;
+  color: #575455;
+}
+
+input {
+  width: 154px;
+  height: 27px;
+  padding: 5px;
+  border-radius: 18px;
+}
+
+.footer_continer_title a {
+  text-decoration: none;
+  width: 180px;
+  height: 48px;
+  padding: 20px;
+  gap: -120px;
+  border-radius: 50px;
+  padding-right: 60px;
+  background-color: #1F7CFF;
+}
+
+@media (max-width: 767px) {
+  .header__nav, .btn, .imgs, .logo_container {
+    display: none;
+  }
+  .footer_continer {
+    display: flex;
+    flex-direction: column;
+  }
+  .App-png2 {
+    width: 462px;
+  }
+}
+@media (min-width: 462px) and (max-width: 1024px) {
+  .header__nav, .imgs, .logo_container h3 {
+    display: none;
+  }
+  .apple {
+    display: flex;
+    flex-direction: column;
+  }
+  .social__title {
+    align-items: center;
+  }
+  .footer_continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=App.css.map */
